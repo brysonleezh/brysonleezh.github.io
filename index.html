@@ -11,7 +11,6 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
 
 
-
 <link href="bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -21,11 +20,13 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+		padding: 12px;
+		
       }
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+          font-size: 4rem;
         }
       }
 
@@ -65,18 +66,22 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+	  
     </style>
 
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
+  
+	<body>
+	  
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+	<div style="width: 100%; height: 1000px;" class="d-flex p-3 mx-auto flex-column text-center text-bg-dark">
+
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">Bryson Lee</h3>
+
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
         <a class="nav-link fw-bold py-1 px-0" href="https://www.linkedin.com/in/brysonleezh/">Linkedin</a>
@@ -84,34 +89,116 @@
       </nav>
     </div>
   </header>
+  
+	<div>	
+		<h1 style="font-family: cursive; font-size: 70px;">Bowen(Bryson) Lee</h1>
+		<br />
+		<p class="lead">USC Graduate Student</p>
+		<br>
+		<br/>
+		<p class="lead">
+		  <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Find More About Me</a>
+		</p>
+		
+	</div>
 
-
-    <h1>Bowen(Bryson) Lee</h1>
-    <p class="lead">USC Graduate Student</p>
-	<p class="lead">Still Updating My Content</p>
-	<br>
-	<br />
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Find More About Me</a>
-    </p>
-	
-	
+	<!-- put div below our cover content -->
 	
 
   <footer class="mt-auto text-white-50">
     <p> <a href="https://github.com/brysonleezh">By Bryson, Still Updating</a></p>
-  </footer>
- 
+  </footer> 
   
 </div>
 
-<!-- 	Content for my background
-	<div>
-		<p>Education</p>
-		
-	</div>
 
- -->
-
+	<div class="marketing text-bg-dark text-center">
+	 
+	   <!-- Three columns of text below the carousel -->
+	   <div class="row">
+	     <div class="col-lg-4">
+	       <img src="./img/schoolLogo3.png" class="bd-placeholder-img rounded-circle" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" >
+<!-- 			   <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+ -->			   <!-- <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text> -->
+			   </img>
+		   <h2 style="font-family: cursive;">Education</h2>
+			<p>M.S. in Analytics Los Angeles,CA</p>
+			<p>Aug 2022- May 2024(Excepted)</p>
+	       <p><a class="btn btn-secondary" href="https://viterbigradadmission.usc.edu/programs/masters/msprograms/industrial-systems-engineering/ms-analytics/" role="button">View details &raquo;</a></p>
+	     </div><!-- /.col-lg-4 -->
+	     <div class="col-lg-4">
+	       <img src="img/LinkedIn.png" class="bd-placeholder-img rounded-circle" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+			   <!-- <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text> -->
+			   </img>
+	 
+	       <h2 style="font-family: cursive;">Networking</h2>
+		   <p>Bryson Lee, Currently looking for 2023 Summer Internship</p>
+		   <p>Check My Linkdeln to know more about me</p>
+	       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+	     </div><!-- /.col-lg-4 -->
+	     <div class="col-lg-4">
+	       <img src="img/skills.jpeg" class="bd-placeholder-img rounded-circle" width="160" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+<!-- 		   <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+ -->		   </img>
+	 
+	       <h2 style="font-family: cursive;">Skills</h2>
+		   <p>Programming: Java, Python, Javascript, HTML, CSS</p>
+		   <p>FrameWork: SpringBoot, Keras, Tensorflow, Bootstrap, Vue</p>
+		   <p>Other: Git, MySQL, R</p>
+	       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+	     </div><!-- /.col-lg-4 -->
+	   </div><!-- /.row -->
+	 
+	 
+	   <!-- START THE FEATURETTES -->
+	 
+	   <hr class="featurette-divider">
+	 
+	   <div class="row featurette">
+	     <div class="col-md-7">
+	       <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+	       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	     </div>
+	     <div class="col-md-5">
+	       <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+	 
+	     </div>
+	   </div>
+	 
+	   <hr class="featurette-divider">
+	 
+	   <div class="row featurette">
+	     <div class="col-md-7 order-md-2">
+	       <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+	       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	     </div>
+	     <div class="col-md-5 order-md-1">
+	       <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+	 
+	     </div>
+	   </div>
+	 
+	   <hr class="featurette-divider">
+	 
+	   <div class="row featurette">
+	     <div class="col-md-7">
+	       <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+	       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+	     </div>
+	     <div class="col-md-5">
+	       <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+	 
+	     </div>
+	   </div>
+	 
+	   <hr class="featurette-divider">
+	 
+	 
+	 </div>
+	
   </body>
+  
+  
+  
+  
 </html>
